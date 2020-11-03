@@ -32,3 +32,5 @@ build
 *.class
 .vscode/
 .metals/
+.bloop/
+.bsp/

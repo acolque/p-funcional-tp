@@ -1,4 +1,4 @@
-package dbService
+package fiuba.fp.services
 
 import doobie._
 import doobie.implicits._
@@ -39,6 +39,3 @@ object db {
     return result
   }
 }
-
-    
-
