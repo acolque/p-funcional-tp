@@ -90,3 +90,8 @@ libraryDependencies ++= Seq(
   "org.tpolecat" %% "doobie-scalatest" % "0.9.0" % "test"  // ScalaTest support for typechecking statements.
 
 )
+
+libraryDependencies ++= Seq(
+  "org.scalatest" %% "scalatest" % "3.2.2" % "test",
+  "org.scalatest" %% "scalatest-funsuite" % "3.2.2" % "test"
+)
